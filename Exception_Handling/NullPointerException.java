@@ -1,0 +1,9 @@
+package Exception_Handling;
+
+public class NullPointerException {
+    public static void main(String[] args) {
+        String s = null;
+        System.out.println(s.length()); // This line will throw a NullPointerException
+   
+    }
+}
